@@ -12,9 +12,6 @@ pipeline {
                      sh "pwd"
                 }
 
-                sh """
-                cd /opt/docker-sistemas/deploy-jenkins/
-                """
             }
         }	
 
