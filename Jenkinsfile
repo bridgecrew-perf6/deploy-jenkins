@@ -5,11 +5,11 @@ pipeline {
         stage('deploy_dev'){
             when {
                 branch 'homologacao'
-            }
-
-            dir("/opt/docker-sistemas/deploy-jenkins/")
+            }            
               
             steps{
+                dir("/opt/docker-sistemas/deploy-jenkins/")
+
                 sh """
                 cd /opt/docker-sistemas/deploy-jenkins/
                 """
