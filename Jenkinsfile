@@ -8,7 +8,7 @@ pipeline {
             }            
               
             steps{
-                dir("/opt/docker-sistemas/deploy-jenkins/"){
+                dir("/opt/docker-sistemas/deploy-jenkins"){
                      sh "pwd"
                 }
 
