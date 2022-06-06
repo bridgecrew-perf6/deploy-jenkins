@@ -6,6 +6,8 @@ pipeline {
             when {
                 branch 'homologacao'
             }
+
+            dir("/opt/docker-sistemas/deploy-jenkins/")
               
             steps{
                 sh """
